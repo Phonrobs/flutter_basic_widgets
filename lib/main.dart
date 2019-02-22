@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_basic_widgets/pages/snackbar_sample.dart';
 import './pages/text.dart';
 import './pages/text_span.dart';
 import './pages/text_multiline.dart';
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       appBar: AppBar(
         title: Text('Basic Widgets'),
       ),
-      body: ImageAssetSamplePage(),
+      body: SnackBarSamplePage(),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         tooltip: 'Create new item',
